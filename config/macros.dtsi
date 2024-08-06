@@ -2,7 +2,7 @@ macro_macro_previus: macro_macro_previus{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_previus";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp LEFT_SHIFT>, <&kp LEFT_BRACKET>;
+bindings = <&mt RGUI LSHIFT>, <&kp LEFT_BRACKET>;
 };
 macro_next_page: macro_next_page{
 compatible = "zmk,behavior-macro";
